@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f06292; /* Pink background for the whole page */
+  color: #333;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #d5006d; /* Fuchsia color for the app container */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: rgb(97, 12, 76); /* White text for the title */
+}
+
+.input-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-right: 10px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #ff80ab; /* Light pink border on focus */
+  outline: none;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff4081; /* Coral color for button */
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #c60055; /* Darker coral on hover */
+}
+
+.output-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #ffebee; /* Light pink background for output */
+}
+
+.output-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: rgb(82, 3, 82); /* White text for output title */
+}
+
+.output-text {
+  font-size: 1.2rem;
+  color: black; /* Change text color to black */
+}
